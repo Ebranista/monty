@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * open_file - opens a file
+ * open_file - It opens a file
  * @file_name: the file namepath
  * Return: void
  */
@@ -19,7 +19,7 @@ void open_file(char *file_name)
 
 
 /**
- * read_file - reads a file
+ * read_file - It reads a file
  * @fd: pointer to file descriptor
  * Return: void
  */
@@ -39,7 +39,7 @@ void read_file(FILE *fd)
 
 
 /**
- * parse_line - Separates each line into tokens to determine
+ * parse_line - It Separates each line into tokens to determine
  * which function to call
  * @buffer: line from the file
  * @line_number: line number
@@ -71,7 +71,7 @@ int parse_line(char *buffer, int line_number, int format)
 }
 
 /**
- * find_func - find the appropriate function for the opcode
+ * find_func - It find the appropriate function for the opcode
  * @opcode: opcode
  * @value: argument of opcode
  * @format:  storage format. If 0 Nodes will be entered as a stack.
@@ -120,7 +120,7 @@ void find_func(char *opcode, char *value, int ln, int format)
 
 
 /**
- * call_fun - Calls the required function.
+ * call_fun - It Calls the required function.
  * @func: Pointer to the function that is about to be called.
  * @op: string representing the opcode.
  * @val: string representing a numeric value.

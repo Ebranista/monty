@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * nop - Does nothing.
+ * nop - It Does nothing.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -13,7 +13,7 @@ void nop(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swap_nodes - Swaps the top two elements of the stack.
+ * swap_nodes - It Swaps the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -34,7 +34,7 @@ void swap_nodes(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * add_nodes - Adds the top two elements of the stack.
+ * add_nodes - It Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -54,7 +54,7 @@ void add_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * sub_nodes - Adds the top two elements of the stack.
+ * sub_nodes - It Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
@@ -76,7 +76,7 @@ void sub_nodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * div_nodes - Adds the top two elements of the stack.
+ * div_nodes - It Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
